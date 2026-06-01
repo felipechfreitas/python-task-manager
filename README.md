@@ -1,28 +1,83 @@
 # Lista de Tarefas em Python
 
-Projeto desenvolvido para praticar conceitos básicos de Python.
+Projeto desenvolvido para praticar conceitos fundamentais da linguagem Python através da criação de um sistema simples de gerenciamento de tarefas via terminal.
+
+## Objetivo
+
+Este projeto faz parte da minha jornada de aprendizado em Python, com foco em desenvolver lógica de programação e aplicar conceitos básicos em projetos práticos.
 
 ## Conceitos utilizados
 
-- Listas (list)
-- Loop for
-- Input de usuário
-- append()
-- range()
+- Variáveis
+- Listas (`list`)
+- Estruturas de repetição (`while` e `for`)
+- Estruturas condicionais (`if`, `elif`, `else`)
+- Entrada de dados com `input()`
+- Manipulação de listas
+- `append()`
+- `pop()`
+- `enumerate()`
 
 ## Funcionalidades
 
-- Cadastro de tarefas
-- Armazenamento em lista
-- Exibição das tarefas cadastradas
+✅ Adicionar tarefas
+
+✅ Listar tarefas cadastradas
+
+✅ Remover tarefas por número
+
+✅ Verificar se existem tarefas cadastradas
+
+✅ Menu interativo
+
+✅ Encerramento do programa pelo usuário
 
 ## Exemplo de uso
 
-Digite uma tarefa: Estudar Python
-Digite uma tarefa: GitHub
-Digite uma tarefa: LinkedIn
+```text
+===== MENU =====
 
-Tarefas cadastradas:
-- Estudar Python
-- GitHub
-- LinkedIn
+1 - Adicionar Tarefa
+2 - Listar Tarefas
+3 - Remover Tarefa
+4 - Sair
+```
+
+### Adicionando uma tarefa
+
+```text
+Digite uma tarefa: Estudar Python
+```
+
+### Listando tarefas
+
+```text
+===== TAREFAS =====
+
+1 - Estudar Python
+2 - GitHub
+3 - LinkedIn
+```
+
+### Removendo uma tarefa
+
+```text
+Qual tarefa deseja remover: 2
+
+Tarefa GitHub removida com sucesso
+```
+
+## Próximas melhorias
+
+- [ ] Validar número informado ao remover tarefa
+- [ ] Marcar tarefa como concluída
+- [ ] Salvar tarefas em arquivo `.txt`
+- [ ] Utilizar funções (`def`)
+- [ ] Organizar o projeto em múltiplos arquivos
+
+## Autor
+
+Felipe Chagas Freitas
+
+GitHub: https://github.com/felipechfreitas
+LinkedIn: https://www.linkedin.com/in/fechfreitas/
