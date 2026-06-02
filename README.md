@@ -2,9 +2,14 @@
 
 Projeto desenvolvido para praticar conceitos fundamentais da linguagem Python através da criação de um sistema simples de gerenciamento de tarefas via terminal.
 
-## Objetivo
+## Objetivo do Projeto
 
-Este projeto faz parte da minha jornada de aprendizado em Python, com foco em desenvolver lógica de programação e aplicar conceitos básicos em projetos práticos.
+- Praticar lógica de programação
+- Trabalhar com listas em Python
+- Utilizar estruturas de repetição e decisão
+- Aprender a criar e utilizar funções
+- Organizar código em módulos reutilizáveis
+- Praticar versionamento com Git e GitHub
 
 ## Conceitos utilizados
 
@@ -26,9 +31,9 @@ Este projeto faz parte da minha jornada de aprendizado em Python, com foco em de
 
 ✅ Remover tarefas por número
 
-✅ Verificar se existem tarefas cadastradas
+✅ Exibir mensagem quando não existirem tarefas cadastradas
 
-✅ Menu interativo
+✅ Menu interativo para navegação
 
 ✅ Encerramento do programa pelo usuário
 
@@ -69,15 +74,17 @@ Tarefa GitHub removida com sucesso
 
 ## Próximas melhorias
 
-- [ ] Validar número informado ao remover tarefa
-- [ ] Marcar tarefa como concluída
+- [ ] Tratamento de erros com try e except
+- [ ] Validação de índices inválidos
 - [ ] Salvar tarefas em arquivo `.txt`
-- [ ] Utilizar funções (`def`)
-- [ ] Organizar o projeto em múltiplos arquivos
+- [ ] Marcação de tarefas como concluídas
+- [ ] Interface gráfica
 
 ## Autor
 
 Felipe Chagas Freitas
+
+Projeto desenvolvido durante meus estudos de Python e compartilhado no GitHub para acompanhar minha evolução como desenvolvedor.
 
 GitHub: https://github.com/felipechfreitas
 LinkedIn: https://www.linkedin.com/in/fechfreitas/
