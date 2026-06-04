@@ -1,70 +1,59 @@
 # Lista de Tarefas em Python
 
-Projeto desenvolvido para praticar conceitos fundamentais da linguagem Python através da criação de um sistema simples de gerenciamento de tarefas via terminal.
+Projeto desenvolvido para praticar conceitos fundamentais de Python através da criação de um gerenciador de tarefas executado no terminal.
 
-## Objetivo do Projeto
+## Objetivo
 
-- Praticar lógica de programação
-- Trabalhar com listas em Python
-- Utilizar estruturas de repetição e decisão
-- Aprender a criar e utilizar funções
-- Organizar código em módulos reutilizáveis
-- Praticar versionamento com Git e GitHub
-
-## Conceitos utilizados
-
-- Variáveis
-- Listas (`list`)
-- Estruturas de repetição (`while` e `for`)
-- Estruturas condicionais (`if`, `elif`, `else`)
-- Entrada de dados com `input()`
-- Manipulação de listas
-- `append()`
-- `pop()`
-- `enumerate()`
+Este projeto faz parte da minha jornada de aprendizado em Python, com foco na prática de lógica de programação, estruturas de dados e organização de código utilizando funções.
 
 ## Funcionalidades
 
-✅ Adicionar tarefas
+* Adicionar tarefas
+* Listar tarefas cadastradas
+* Remover tarefas
+* Menu interativo
+* Validação de entradas do usuário
+* Tratamento de erros com `try` e `except`
 
-✅ Listar tarefas cadastradas
+## Conceitos praticados
 
-✅ Remover tarefas por número
-
-✅ Exibir mensagem quando não existirem tarefas cadastradas
-
-✅ Menu interativo para navegação
-
-✅ Encerramento do programa pelo usuário
+* Variáveis
+* Listas (`list`)
+* Funções (`def`)
+* Estruturas condicionais (`if`, `elif`, `else`)
+* Laços de repetição (`while` e `for`)
+* `enumerate()`
+* Métodos de lista (`append()` e `pop()`)
+* Tratamento de exceções (`try` e `except`)
+* Organização e reutilização de código
 
 ## Exemplo de uso
 
 ```text
 ===== MENU =====
-
 1 - Adicionar Tarefa
 2 - Listar Tarefas
 3 - Remover Tarefa
 4 - Sair
 ```
 
-### Adicionando uma tarefa
+### Adicionando tarefas
 
 ```text
 Digite uma tarefa: Estudar Python
+Tarefa 'Estudar Python' adicionada com sucesso
 ```
 
 ### Listando tarefas
 
 ```text
 ===== TAREFAS =====
-
 1 - Estudar Python
 2 - GitHub
 3 - LinkedIn
 ```
 
-### Removendo uma tarefa
+### Removendo tarefas
 
 ```text
 Qual tarefa deseja remover: 2
@@ -72,19 +61,17 @@ Qual tarefa deseja remover: 2
 Tarefa GitHub removida com sucesso
 ```
 
-## Próximas melhorias
+## Melhorias futuras
 
-- [ ] Tratamento de erros com try e except
-- [ ] Validação de índices inválidos
-- [ ] Salvar tarefas em arquivo `.txt`
-- [ ] Marcação de tarefas como concluídas
-- [ ] Interface gráfica
+* Editar tarefas
+* Marcar tarefas como concluídas
+* Salvar tarefas em arquivo `.txt`
+* Persistência de dados
+* Interface gráfica
+* Banco de dados
 
 ## Autor
 
 Felipe Chagas Freitas
 
-Projeto desenvolvido durante meus estudos de Python e compartilhado no GitHub para acompanhar minha evolução como desenvolvedor.
-
-GitHub: https://github.com/felipechfreitas
-LinkedIn: https://www.linkedin.com/in/fechfreitas/
+Desenvolvendo projetos para evolução na linguagem Python e construção de portfólio no GitHub.

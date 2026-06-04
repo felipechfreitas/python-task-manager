@@ -23,10 +23,19 @@ def remover_tarefa(tarefas): # Função de remover tarefa e deixar o código mai
     else: # Exibe a lista de tarefas para o usuário escolher qual remover
         listar_tarefas(tarefas)
         
+    try: # Tenta converter a escolha do usuário para um número inteiro, caso contrário, exibe uma mensagem de erro
         escolha = int(input("Qual tarefa deseja remover: ")) # Recebe a escolha do usuário para remover uma tarefa e transforma em inteiro
-        indice_remover = escolha - 1 # Ajusta o índice para corresponder à posição correta na lista (índices começam em 0). O escolha do usuário começa em 1, então subtrai-se 1 para obter o índice correto.
-        tarefa_removida = tarefas.pop(indice_remover) # Remove a tarefa da lista usando o método pop() e armazena a tarefa removida em uma variável para exibir a mensagem de confirmação
-        print(f"Tarefa {tarefa_removida} removida com sucesso") # Confirmação de remoção da tarefa
+    except ValueError: # Caso o usuário digite algo que não seja um número, exibe uma mensagem de erro e retorna para o menu
+        print("Digite apenas números")
+        return # Retorna para o menu principal sem tentar remover uma tarefa, pois a entrada do usuário é inválida.
+    
+    if escolha <1 or escolha > len(tarefas): # Verifica se a escolha do usuário é um número válido dentro do intervalo de tarefas disponíveis, caso contrário, exibe uma mensagem de erro
+        print("Número inválido")
+        return # Retorna para o menu principal sem tentar remover uma tarefa, pois a escolha do usuário é inválida.
+    
+    indice_remover = escolha - 1 # Ajusta o índice para corresponder à posição correta na lista (índices começam em 0). O escolha do usuário começa em 1, então subtrai-se 1 para obter o índice correto.
+    tarefa_removida = tarefas.pop(indice_remover) # Remove a tarefa da lista usando o método pop() e armazena a tarefa removida em uma variável para exibir a mensagem de confirmação
+    print(f"Tarefa {tarefa_removida} removida com sucesso") # Confirmação de remoção da tarefa
 
 
 
